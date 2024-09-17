@@ -1,0 +1,182 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 1600px;
+            height: 900px;
+            position: absolute;
+            background: black;
+            display: block;
+        }
+
+        .row-1, .row-2, .row-3{
+            position: absolute;
+            width: 35%;
+        }
+
+        .kolom-1, .kolom-3{
+            background: white;
+            width: 50%;
+            height: 50%;
+            margin: 20px;
+            position: absolute;
+        }
+
+        .kolom-2{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kotak Catur</h1>
+    <div class="container">
+        <div class="row-1">
+            <div class="kolom-1"></div>
+            <div class="kolom-2"></div>
+            <div class="kolom-3"></div>
+        </div>
+        <div class="row-2">
+            <div class="kolom-1"></div>
+            <div class="kolom-2"></div>
+            <div class="kolom-3"></div>
+        </div>
+        <div class="row-3">
+            <div class="kolom-1"></div>
+            <div class="kolom-2"></div>
+            <div class="kolom-3"></div>
+        </div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #papan {
+        width: 500px;
+        height: 500px;
+        background: yellow;
+        position: absolute;
+      }
+
+      .baris {
+        width: 300px;
+        height: 100px;
+      }
+
+      .baris-1 {
+        background: red;
+        position: absolute;
+      }
+      .baris-2 {
+        background: blueviolet;
+        position: absolute;
+        top: 100px;
+      }
+      .baris-3 {
+        background: blue;
+        position: absolute;
+        top: 200px;
+      }
+
+      .kotak {
+        width: 100px;
+        height: 100px;
+      }
+
+      .col-1-1,
+      .col-1-3,
+      .col-5-2,
+      .col-7-1,
+      .col-9-3 {
+        background-color: black;
+      }
+      .col-1-2,
+      .col-4-1,
+      .col-6-3,
+      .col-8-2 {
+        background: white;
+      }
+
+      .col-1-1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+
+      .col-1-3 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+      }
+
+      .col-5-2 {
+        position: absolute;
+        top: 0px;
+        left: 100px;
+      }
+
+      .col-7-1 {
+        position: absolute;
+        left: 200px;
+      }
+
+      .col-9-3 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+      }
+
+      .col-1-2 {
+        position: absolute;
+        left: 100px;
+      }
+
+      .col-4-1 {
+        position: absolute;
+        left: 0px;
+      }
+
+      .col-6-3 {
+        position: absolute;
+        left: 200px;
+      }
+
+      .col-8-2 {
+        position: absolute;
+        left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kotak Catur</h1>
+    <div id="papan">
+      <div class="baris-1 baris">
+        <div class="col-1-1 kotak"></div>
+        <div class="col-1-2 kotak"></div>
+        <div class="col-1-3 kotak"></div>
+      </div>
+
+      <div class="baris-2 baris">
+        <div class="col-4-1 kotak"></div>
+        <div class="col-5-2 kotak"></div>
+        <div class="col-6-3 kotak"></div>
+      </div>
+
+      <div class="baris-3 baris">
+        <div class="col-7-1 kotak"></div>
+        <div class="col-8-2 kotak"></div>
+        <div class="col-9-3 kotak"></div>
+      </div>
+    </div>
+  </body>
+</html>
