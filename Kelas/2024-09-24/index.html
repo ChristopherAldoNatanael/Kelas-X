@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .rumah {
+        width: 80%;
+        height: 900px;
+        background-color: red;
+        position: absolute;
+        margin-top: 10%;
+      }
+      .kamar {
+        width: 60%;
+        height: 700px;
+        background-color: yellow;
+        position: absolute;
+        top: 100px;
+      }
+      .meja {
+        width: 50%;
+        height: 100px;
+        background-color: green;
+        position: absolute;
+        top: 25px;
+        /* bottom: 50px; */
+      }
+      .kursi {
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: 150px;
+      }
+      .laptop {
+        width: 50%;
+        height: 100px;
+        position: absolute;
+        background-color: black;
+        top: 275px;
+      }
+      .buku {
+        width: 100%;
+        height: 200px;
+        background-color: aqua;
+        position: absolute;
+        top: 400px;
+        display: flex;
+      }
+      .komputer {
+        width: 50%;
+        height: 100px;
+        background-color: brown;
+        position: absolute;
+        top: 525px;
+      }
+      .gudang {
+        width: 100%;
+        height: 300px;
+        background-color: blueviolet;
+        position: sticky;
+        top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      img {
+        width: 100px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rumah">
+      <div class="kamar">
+        <div class="meja"></div>
+        <div class="kursi"></div>
+        <div class="laptop"></div>
+        <div class="buku">
+          <p>Buku Bahasa Indonesia</p>
+          <p>Buku Matematika</p>
+          <p>Buku Pemrograman</p>
+        </div>
+        <div class="komputer"></div>
+      </div>
+      <div class="gudang">
+        <img src="images/1.png" alt="" />
+        <img src="images/2.png" alt="" />
+        <img src="images/3.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
