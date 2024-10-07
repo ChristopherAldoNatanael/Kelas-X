@@ -1,0 +1,31 @@
+[ {
+    "idmenu" : 1,
+    "idkategori" : 1,
+    "menu" : "Basreng",
+    "harga" : 8000,
+    "warna" : ["merah","kuning","hijau"],
+    "stok" : true,
+    "keterangan" : null
+},
+
+{
+    "idmenu" : 2,
+    "idkategori" : 1,
+    "menu" : "Makroni",
+    "harga" : 8000,
+    "warna" : ["merah","kuning","hijau"],
+    "stok" : false,
+    "keterangan" : null
+},
+
+{
+    "idmenu" : 2,
+    "idkategori" : 1,
+    "menu" : "Bakmie Goreng Biasa",
+    "harga" : 12000,
+    "warna" : ["merah","kuning","hijau"],
+    "stok" : false,
+    "keterangan" : null
+}
+
+]
