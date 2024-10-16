@@ -124,6 +124,31 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.gambar1 img {
+  transition: transform 0.3s ease;
+}
+.gambar1:hover {
+  transform: scale(1.1);
+}
+.gambar2 img {
+  transition: transform 0.3s ease;
+}
+.gambar2:hover {
+  transform: scale(1.1);
+}
+.gambar3 img {
+  transition: transform 0.3s ease;
+}
+.gambar3:hover {
+  transform: scale(1.1);
+}
+.gambar4 img {
+  transition: transform 0.3s ease;
+}
+.gambar4:hover {
+  transform: scale(1.1);
+}
+
 .gambar img {
   width: 450px;
   height: 300px;
