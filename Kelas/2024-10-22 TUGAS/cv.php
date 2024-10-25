@@ -38,6 +38,7 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" href="image/logo.png">
   <title>Belajar Bikin CV</title>
 </head>
 
