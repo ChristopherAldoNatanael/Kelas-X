@@ -1,0 +1,179 @@
+.konten {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border: 0.5px solid black;
+}
+.bagian-kiri {
+  background-color: rgb(0, 38, 65);
+  width: 430px;
+  height: 70rem;
+  border-radius: 35px;
+}
+.image img {
+  position: relative;
+  top: 40px;
+  left: 65px;
+  border-radius: 50%;
+}
+.judul {
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 50px;
+}
+.judul h1 {
+  font-size: 35px;
+}
+.judul h2 {
+  position: relative;
+  top: -20px;
+  font-size: 30px;
+}
+.keterangan {
+  font-size: 20px;
+  font-family: calibri;
+  color: #ffffffd3;
+  text-align: left;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+.keahlian {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  font-family: Calibri;
+}
+.keahlian h1 {
+  position: relative;
+  left: 10px;
+  color: #fff;
+  font-size: 45px;
+}
+.keahlian li {
+  position: relative;
+  left: 10px;
+  top: -25px;
+  color: #ffffffd3;
+  margin: 15px 10px;
+  font-size: 20px;
+}
+.kontak {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  font-family: Calibri;
+}
+.kontak h1 {
+  position: relative;
+  left: 10px;
+  color: #fff;
+  font-size: 45px;
+}
+.kontak span {
+  position: relative;
+  font-size: 20px;
+  color: #f5f4f4;
+  top: -20px;
+  left: 2px;
+}
+.telepon p {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: -38px;
+  left: 15px;
+}
+.telepon {
+  display: flex;
+  flex-direction: row;
+}
+.lokasi {
+  display: flex;
+  flex-direction: row;
+}
+.lokasi img {
+  position: relative;
+  color: #f5f4f4;
+  top: -32px;
+  left: -10px;
+}
+.lokasi p {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: -38px;
+  left: -5px;
+}
+.website {
+  display: flex;
+  flex-direction: row;
+}
+.website img {
+  position: relative;
+  color: #f5f4f4;
+  top: -32px;
+  left: -10px;
+}
+.website p {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: -45px;
+  left: -5px;
+}
+.bagian-kanan {
+  font-family: calibri;
+}
+.isi-datapribadi h1 {
+  position: relative;
+  left: 10px;
+}
+
+table {
+  position: relative;
+  top: -10px;
+}
+
+td {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 5px;
+}
+.isi-pendidikan h1 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.isi-pendidikan {
+  position: relative;
+  top: -20px;
+}
+.isi-pendidikan table {
+  position: relative;
+  top: 10px;
+}
+.isi-hobi h1 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.isi-hobi {
+  position: relative;
+  top: -30px;
+}
+.isi-hobi table {
+  position: relative;
+  top: 10px;
+}
+.isi-projek h1 {
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
+.isi-projek table,
+tbody {
+  position: relative;
+  top: -20px;
+}
