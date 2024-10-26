@@ -87,7 +87,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[0] ?> &nbsp;: </li>
+                  <li><?php echo $datapribadi[0] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[1] ?></td>
@@ -95,7 +99,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[2] ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: </li>
+                  <li><?php echo $datapribadi[2] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[3] ?></td>
@@ -103,7 +111,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[4] ?> &nbsp; &nbsp; &nbsp; &nbsp; : </li>
+                  <li><?php echo $datapribadi[4] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[5] ?></td>
@@ -111,7 +123,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[6] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; :</li>
+                  <li><?php echo $datapribadi[6] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[7] ?></td>
@@ -119,7 +135,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[8] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+                  <li><?php echo $datapribadi[8] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[9] ?></td>
@@ -127,7 +147,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[10] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+                  <li><?php echo $datapribadi[10] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[11] ?></td>
@@ -135,7 +159,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[12] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+                  <li><?php echo $datapribadi[12] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[13] ?></td>
@@ -143,7 +171,11 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
             <tr>
               <td>
                 <ul>
-                  <li><?php echo $datapribadi[14] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+                  <li><?php echo $datapribadi[14] ?>
+                    <div class="sama-dengan">
+                      :
+                    </div>
+                  </li>
                 </ul>
               </td>
               <td><?php echo $datapribadi[15] ?></td>
@@ -159,7 +191,10 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $pendidikan[0] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</li>
+                    <li><?php echo $pendidikan[0] ?></li>
+                    <div class="sama-dengan">
+                      :
+                    </div>
                   </ul>
                 </td>
                 <td><?php echo $pendidikan[1] ?></td>
@@ -167,7 +202,10 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $pendidikan[2] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+                    <li><?php echo $pendidikan[2] ?></li>
+                    <div class="sama-dengan">
+                      :
+                    </div>
                   </ul>
                 </td>
                 <td><?php echo $pendidikan[3] ?></td>
@@ -175,7 +213,10 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $pendidikan[4] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</li>
+                    <li><?php echo $pendidikan[4] ?></li>
+                    <div class="sama-dengan">
+                      :
+                    </div>
                   </ul>
                 </td>
                 <td><?php echo $pendidikan[5] ?></td>
