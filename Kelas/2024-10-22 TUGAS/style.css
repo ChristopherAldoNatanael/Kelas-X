@@ -127,6 +127,13 @@
 .bagian-kanan {
   font-family: calibri;
 }
+
+.sama-dengan {
+  display: block;
+  margin-top: -7px;
+  margin-left: 150px;
+}
+
 .isi-datapribadi h1 {
   position: relative;
   left: 10px;
