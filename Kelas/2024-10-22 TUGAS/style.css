@@ -1,12 +1,9 @@
 .konten {
-  margin: auto;
-  height: auto;
   display: flex;
-  justify-content: center;
 }
 .bagian-kiri {
   background-color: rgb(0, 38, 65);
-  width: 430px;
+  width: 30%;
   height: 70rem;
   border-radius: 35px;
 }
@@ -125,18 +122,78 @@
   left: -5px;
 }
 .bagian-kanan {
+  display: flex;
+  flex-wrap: wrap;
   font-family: calibri;
+  width: 70%;
 }
 
 .sama-dengan {
   display: block;
-  margin-top: -7px;
   margin-left: 150px;
 }
 
+.baris-1 {
+  width: 100%;
+  display: flex;
+}
+
+.isi-datapribadi {
+  width: 60%;
+  height: 600px;
+  border: 1px solid red;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
 .isi-datapribadi h1 {
   position: relative;
   left: 10px;
+}
+.isi-pendidikan {
+  border: 1px solid red;
+  border-radius: 30px;
+  width: 500px;
+  height: 600px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.hobi {
+  width: 50%;
+}
+.isi-hobi {
+  border: 1px solid red;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  height: 500px;
+}
+.projek {
+  width: 50%;
+}
+.isi-projek {
+  border: 1px solid red;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  height: 500px;
+}
+.baris2 {
+  display: flex;
+  width: 100%;
+}
+
+.isi-hobi h1 {
+  margin-left: 10px;
 }
 
 table {
@@ -148,40 +205,4 @@ td {
   padding: 0 !important;
   margin: 0 !important;
   line-height: 5px;
-}
-.isi-pendidikan h1 {
-  position: relative;
-  top: 20px;
-  left: 10px;
-}
-.isi-pendidikan {
-  position: relative;
-  top: -20px;
-}
-.isi-pendidikan table {
-  position: relative;
-  top: 10px;
-}
-.isi-hobi h1 {
-  position: relative;
-  top: 20px;
-  left: 10px;
-}
-.isi-hobi {
-  position: relative;
-  top: -30px;
-}
-.isi-hobi table {
-  position: relative;
-  top: 10px;
-}
-.isi-projek h1 {
-  position: relative;
-  top: -20px;
-  left: 10px;
-}
-.isi-projek table,
-tbody {
-  position: relative;
-  top: -20px;
 }

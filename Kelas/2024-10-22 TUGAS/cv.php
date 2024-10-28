@@ -80,214 +80,218 @@ $projeks = ["Membuat Website Untuk PKN", "Membuat Website Untuk UTS", "Membuat G
       </div>
     </div>
     <div class="bagian-kanan" data-aos="fade-left">
-      <div class="isi-datapribadi">
-        <h1><?php echo $dataspribadi ?></h1>
-        <table>
-          <tbody>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[0] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[1] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[2] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[3] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[4] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[5] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[6] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[7] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[8] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[9] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[10] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[11] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[12] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[13] ?></td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $datapribadi[14] ?>
-                    <div class="sama-dengan">
-                      :
-                    </div>
-                  </li>
-                </ul>
-              </td>
-              <td><?php echo $datapribadi[15] ?></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="pendidikan">
-        <div class="isi-pendidikan">
-          <h1><?php echo $judul_pendidikan ?></h1>
+      <div class="baris-1">
+        <div class="isi-datapribadi">
+          <h1><?php echo $dataspribadi ?></h1>
           <table>
             <tbody>
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $pendidikan[0] ?></li>
-                    <div class="sama-dengan">
-                      :
-                    </div>
+                    <li><?php echo $datapribadi[0] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
                   </ul>
                 </td>
-                <td><?php echo $pendidikan[1] ?></td>
+                <td><?php echo $datapribadi[1] ?></td>
               </tr>
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $pendidikan[2] ?></li>
-                    <div class="sama-dengan">
-                      :
-                    </div>
+                    <li><?php echo $datapribadi[2] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
                   </ul>
                 </td>
-                <td><?php echo $pendidikan[3] ?></td>
+                <td><?php echo $datapribadi[3] ?></td>
               </tr>
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $pendidikan[4] ?></li>
-                    <div class="sama-dengan">
-                      :
-                    </div>
+                    <li><?php echo $datapribadi[4] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
                   </ul>
                 </td>
-                <td><?php echo $pendidikan[5] ?></td>
+                <td><?php echo $datapribadi[5] ?></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><?php echo $datapribadi[6] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
+                  </ul>
+                </td>
+                <td><?php echo $datapribadi[7] ?></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><?php echo $datapribadi[8] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
+                  </ul>
+                </td>
+                <td><?php echo $datapribadi[9] ?></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><?php echo $datapribadi[10] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
+                  </ul>
+                </td>
+                <td><?php echo $datapribadi[11] ?></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><?php echo $datapribadi[12] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
+                  </ul>
+                </td>
+                <td><?php echo $datapribadi[13] ?></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li><?php echo $datapribadi[14] ?>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </li>
+                  </ul>
+                </td>
+                <td><?php echo $datapribadi[15] ?></td>
               </tr>
             </tbody>
           </table>
         </div>
-      </div>
-      <div class="hobi">
-        <div class="isi-hobi">
-          <h1><?php echo $hobi ?></h1>
-          <table>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $hobis[0] ?></li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $hobis[1] ?></li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $hobis[2] ?></li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li><?php echo $hobis[3] ?></li>
-                </ul>
-              </td>
-            </tr>
-          </table>
+        <div class="pendidikan">
+          <div class="isi-pendidikan">
+            <h1><?php echo $judul_pendidikan ?></h1>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><?php echo $pendidikan[0] ?></li>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </ul>
+                  </td>
+                  <td><?php echo $pendidikan[1] ?></td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><?php echo $pendidikan[2] ?></li>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </ul>
+                  </td>
+                  <td><?php echo $pendidikan[3] ?></td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><?php echo $pendidikan[4] ?></li>
+                      <div class="sama-dengan">
+                        :
+                      </div>
+                    </ul>
+                  </td>
+                  <td><?php echo $pendidikan[5] ?></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-      <div class="projek">
-        <div class="isi-projek">
-          <h1><?php echo $projek ?></h1>
-          <table>
-            <tbody>
+      <div class="baris2">
+        <div class="hobi">
+          <div class="isi-hobi">
+            <h1><?php echo $hobi ?></h1>
+            <table>
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $projeks[0] ?></li>
+                    <li><?php echo $hobis[0] ?></li>
                   </ul>
                 </td>
               </tr>
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $projeks[1] ?></li>
+                    <li><?php echo $hobis[1] ?></li>
                   </ul>
                 </td>
               </tr>
               <tr>
                 <td>
                   <ul>
-                    <li><?php echo $projeks[2] ?></li>
+                    <li><?php echo $hobis[2] ?></li>
                   </ul>
                 </td>
               </tr>
-            </tbody>
-          </table>
+              <tr>
+                <td>
+                  <ul>
+                    <li><?php echo $hobis[3] ?></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="projek">
+          <div class="isi-projek">
+            <h1><?php echo $projek ?></h1>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><?php echo $projeks[0] ?></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><?php echo $projeks[1] ?></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li><?php echo $projeks[2] ?></li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
