@@ -1,0 +1,175 @@
+body {
+  overflow-x: hidden;
+}
+
+.navigation nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar stays above other content */
+}
+
+body {
+  /* Add space at the top to avoid content being hidden under the navbar */
+  height: 1000px;
+}
+
+.logo p {
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+}
+
+.nav-link {
+  color: white;
+  font-size: 15px; /* Fixed typo - removed space before px */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: aqua;
+  border: 1px solid blue;
+}
+
+.dropdown-menu:hover {
+  transition: ease-in-out 1s;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.navbar-nav .dropdown-menu {
+  display: none;
+  opacity: 0;
+  position: absolute;
+}
+
+.navbar-nav .dropdown-item:hover {
+  color: blue;
+  transition: color 1s ease-in-out;
+}
+
+.smpkatolik h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(161, 242, 242);
+  border-radius: 5px;
+  width: 400px;
+  height: 22px;
+  text-align: center;
+  color: rgb(107, 107, 255);
+  position: relative;
+  left: 430px;
+  top: 50px;
+}
+.smpkatolik {
+  background-color: rgb(143, 142, 142);
+  height: 500px;
+}
+.rumah {
+  justify-content: center;
+  display: flex;
+  margin-top: 120px;
+  gap: 80px;
+}
+.kotak1 {
+  background-color: white;
+  height: 300px;
+  width: 350px;
+}
+.kotak2 {
+  background-color: white;
+  height: 300px;
+  width: 350px;
+}
+.kotak3 {
+  background-color: white;
+  height: 300px;
+  width: 350px;
+}
+.kotak1:hover {
+  color: white;
+  opacity: 0.8;
+  background-image: url(images/gambar1.png);
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+a {
+  text-decoration: none;
+}
+.kotak1 button {
+  margin-left: 30px;
+}
+.kotak2:hover {
+  color: white;
+  opacity: 0.8;
+  background-image: url(images/foto4.png);
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+.kotak2 button {
+  margin-left: 30px;
+}
+.kotak3:hover {
+  color: white;
+  opacity: 0.8;
+  background-image: url(images/foto5.png);
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+.kotak3 button {
+  margin-left: 30px;
+}
+.gambar button {
+  position: relative;
+  top: -400px;
+  left: 580px;
+}
+.gambar h2 {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: -420px;
+  left: 530px;
+}
+.gambar button:hover {
+  background-color: rgb(96, 96, 245);
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+.content {
+  position: relative;
+  top: -100px;
+  background-color: rgb(156, 155, 155);
+  width: 1261px;
+  height: 650px;
+}
+.kotak4 {
+  position: relative;
+  top: 80px;
+  left: 400px;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
