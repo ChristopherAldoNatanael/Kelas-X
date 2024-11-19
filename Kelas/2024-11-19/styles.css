@@ -1,0 +1,13 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+.logo img {
+  width: 150px;
+}
+.detail-product img {
+  width: 200px;
+}
+.detail-product {
+  margin-bottom: 20px;
+}
