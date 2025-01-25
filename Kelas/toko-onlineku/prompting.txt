@@ -1,0 +1,5 @@
+saya akan membuat toko online yang terdiri dari 4 bagian yaitu : header, banner, product, footer. Dimana isi dari header adalah menu,kolom pencarian,register,login. Isi dari banner adalah 2 kolom 1 benner statis, 1 banner dinamis. Isi dari produk adalah beserta nama produk,  gambar dan harga. Footer berisi : menu,pembayaran,mediasosial,dan kontak. Buatkan halaman html nya saja
+
+buatkan html untuk backend admin page yang di gunakan untuk memasukan nama barang,gambar product,harga product,stock product
+dan buat kan form nya di halaman admin setelah login, untuk semua itu yang telah saya sebutkan di atas
+dan buatkan file admin dashboard
