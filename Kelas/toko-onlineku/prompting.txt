@@ -3,3 +3,69 @@ saya akan membuat toko online yang terdiri dari 4 bagian yaitu : header, banner,
 buatkan html untuk backend admin page yang di gunakan untuk memasukan nama barang,gambar product,harga product,stock product
 dan buat kan form nya di halaman admin setelah login, untuk semua itu yang telah saya sebutkan di atas
 dan buatkan file admin dashboard
+
+buatkan toko online saya yang bernama EliteWatch menggunakan php dan mySQL dengan fitur :
+
+- halaman index
+1.navigasi yang berisi judul Produk saya EliteWatch yang berisi menu : Product,Cart,About,Contact search bar login register di tambah logic ketika user sudah login yang muncul nama username dan logout jika belum login yang muncul adalah login dan register
+2. menampilkan banner statis dan dinamis, atau banner yang tidak bergerak di kiri dan banner yang bergerak di kanan
+3. menampilkan product yang terdiri dari gambar product,nama product,harga product,dan tombol add to cart,
+4.Footer yang berisi menu menu di navigasi, Metode pembayaran, Sosial media toko
+
+- halaman cart
+ada navigasi juga seperti yang di halam index
+3. Fungsi Cart untuk menambahkan product yang akan di beli ke dalam cart, ada gambar product,nama product, menambah dan mengurangi jumlah product, menghapus product yang di cart, menghitung total belanja ,melakukann checkout untuk pembayaran,melakukan pembayaran. di halaman ini yang saya sebutkan tadi berbentuk seperti tabel.
+ada footer juga seperti yang di halam index
+
+- halaman register
+ada navigasi juga seperti yang di halam index
+4. Fungsi registrasi pelanggan dengan memasukan username,alamat,Email,password,Confirm Password.
+ada footer juga seperti yang di halam index
+
+- halaman login
+ada navigasi juga seperti yang di halam index
+5. Fungsi Login untuk memasukan Email dan password agar pelanggan bisa login sebelum berbelanja
+ada footer juga seperti yang di halam index
+
+- halaman contact 
+ada navigasi juga seperti yang di halam index
+6. Fungsi Contact untuk pelanggan menghubungi toko dengan memasukan kolom name,Email,dan message
+ada footer juga seperti yang di halam index
+
+- halaman about
+ada navigasi juga seperti yang di halam index
+7. Fungsi about untuk pelanggan melihat tentang toko online nya,ada misi toko dan visi toko,dan penghargaan toko kami yang berisi pelanggan yang suka,product yang tersedia,lama toko kami di pasar.
+ada footer juga seperti yang di halam index
+
+- halaman product
+ada navigasi juga seperti yang di halam index
+8. Fungsi product untuk menampilkan semua product yang terjual di toko yang ada Gambar product,nama product,deskripsi singkat product,harga product,dan tombol add cart.dan ada buat filter product yang akan muncul untuk harga dari terendah dan tertinggi dan nama brand nya yang mau difilter jika misal yang di pilih adalah brand seiko yang muncul hanya jam merk seiko
+ada footer juga seperti yang di halam index
+
+buat kan dengan bahasa pemrograman php dan menggunakan bootstrap yang menarik
+dan buatkan untuk database nya juga code sql nya 
+di tiap tiap halaman nya tambah kan juga fungsi fungsi logic supaya bisa membaca data di database
+
+buatkan PHP nya saja tanpa menggunakan HTML,CSS dan buat dalam file sesuai dengan fungsi masing masing
+dan buatkan database nya beserta tabel tabel nya
+
+
+
+ perbaiki halaman index ini supaya lebih menarik dan profesional tambah kan bagian navigasi yang berisi product,cart,About,contact, search dan di bagian kanan ada login dan register dan tambahkan logic untuk login dan register ketika user login tulisan login dan register hilang dan menjadi nama user dan logout terus tambahkan bagian footer yang menarik buat semuanya tanpa masalah dan buat sangat menarik dan profesional yaa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
