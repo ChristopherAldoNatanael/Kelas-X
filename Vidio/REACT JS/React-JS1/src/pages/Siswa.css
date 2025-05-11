@@ -1,0 +1,257 @@
+.siswa-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.siswa-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.siswa-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.siswa-header h1:after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #3498db;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.siswa-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.siswa-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.search-box {
+  flex: 1;
+  min-width: 250px;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 20px;
+  padding-right: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #7f8c8d;
+}
+
+.filter-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-box label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+.filter-box select {
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-box select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.siswa-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3498db;
+}
+
+.siswa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.siswa-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.siswa-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.siswa-foto {
+  height: 200px;
+  overflow: hidden;
+}
+
+.siswa-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.siswa-card:hover .siswa-foto img {
+  transform: scale(1.05);
+}
+
+.siswa-info {
+  padding: 20px;
+}
+
+.siswa-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.siswa-kelas {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.siswa-nilai {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.nilai {
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.nilai.excellent {
+  background-color: #d4f1f9;
+  color: #2980b9;
+}
+
+.nilai.good {
+  background-color: #e8f8f5;
+  color: #27ae60;
+}
+
+.nilai.average {
+  background-color: #fef9e7;
+  color: #f39c12;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.no-data {
+  text-align: center;
+  padding: 50px 0;
+  color: #7f8c8d;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .siswa-filter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .filter-box {
+    width: 100%;
+  }
+  
+  .filter-box select {
+    flex: 1;
+  }
+}
