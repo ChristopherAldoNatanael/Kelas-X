@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELAJAR AXIOS</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <style>
+        .btn-action {
+            margin-right: 5px;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">BELAJAR AXIOS</h1>
+        
+        <div class="d-flex justify-content-center mb-4">
+            <button id="btnGet" class="btn btn-primary btn-action">GET</button>
+            <button id="btnShow" class="btn btn-info btn-action">SHOW</button>
+            <button id="btnPost" class="btn btn-success btn-action">POST</button>
+            <button id="btnDelete" class="btn btn-danger btn-action">DELETE</button>
+            <button id="btnUpdate" class="btn btn-warning btn-action">UPDATE</button>
+        </div>
+        
+        <div id="data-container" class="table-container">
+            <p class="text-center">Klik tombol GET untuk memuat data pelanggan</p>
+        </div>
+    </div>
+    
+    <script type="module">
+        // Impor fungsi dari modul
+        import { getPelanggan } from './js/pelanggan/get.js';
+        import { showPelanggan } from './js/pelanggan/show.js';
+        import { showPostForm } from './js/pelanggan/post.js';
+        import { prepareUpdate } from './js/pelanggan/update.js';
+        import { deletePelanggan } from './js/pelanggan/delete.js';
+    
+        // Buat namespace global untuk fungsi agar bisa diakses oleh onclick
+        // Ini adalah cara sederhana untuk mengatasi scope modul dengan onclick HTML inline
+        // Alternatif yang lebih baik adalah mendaftarkan event listener secara dinamis,
+        // tetapi itu akan memerlukan perubahan lebih besar pada cara tabel dibuat di getPelanggan.
+        window.app = {
+            getPelanggan,
+            showPelanggan,
+            showPostForm,
+            prepareUpdate,
+            deletePelanggan
+            // Fungsi postPelanggan dan submitUpdatePelanggan tidak perlu di sini
+            // karena mereka dipanggil dari dalam event listener yang di-setup oleh showPostForm dan prepareUpdate
+        };
+        
+        // Event listener untuk tombol utama
+        document.getElementById('btnGet').addEventListener('click', window.app.getPelanggan);
+        
+        document.getElementById('btnShow').addEventListener('click', function() {
+            // Menampilkan data pelanggan dengan ID tertentu (misal 10, atau minta input)
+            const idToShow = prompt("Masukkan ID pelanggan yang ingin ditampilkan:", "10");
+            if (idToShow && !isNaN(idToShow)) {
+                window.app.showPelanggan(parseInt(idToShow));
+            } else if (idToShow !== null) {
+                alert("ID tidak valid.");
+            }
+        });
+        
+        document.getElementById('btnPost').addEventListener('click', window.app.showPostForm);
+        
+        document.getElementById('btnDelete').addEventListener('click', function() {
+            const idToDelete = prompt("Masukkan ID pelanggan yang ingin dihapus:");
+            if (idToDelete && !isNaN(idToDelete)) {
+               window.app.deletePelanggan(parseInt(idToDelete));
+            } else if (idToDelete !== null) {
+                alert("ID pelanggan tidak valid.");
+            }
+        });
+    
+        document.getElementById('btnUpdate').addEventListener('click', function() {
+            const idToUpdate = prompt("Masukkan ID pelanggan yang ingin diupdate:");
+            if (idToUpdate && !isNaN(idToUpdate)) {
+               window.app.prepareUpdate(parseInt(idToUpdate));
+            } else if (idToUpdate !== null) { 
+                alert("ID pelanggan tidak valid.");
+            }
+        });
+    
+        // Panggil getPelanggan saat halaman pertama kali dimuat jika diinginkan
+        // window.app.getPelanggan();
+    
+    </script>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
